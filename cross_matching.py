@@ -51,7 +51,7 @@ def import_super():
 
   return np.array(result)
 
-# naive cross correlator - 1 vs all catalog
+# naive cross matcher - 1 vs all catalog
 # cross-matching each sources in the two catalogs, matched sources have a separation distance < aperture
 def crossmatch(cat1, cat2, aperture):
     matches = []
